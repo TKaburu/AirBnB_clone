@@ -7,7 +7,6 @@ import os
 from models.base_model import BaseModel
 
 
-
 class TestBaseModel(unittest.TestCase):
     """tests modules in BaseModel"""
     @classmethod
@@ -25,6 +24,7 @@ class TestBaseModel(unittest.TestCase):
             os.remove("file.json")
         except FileNotFoundError:
             pass
+
     def test_functions_available(self):
         """checks if class has functions"""
         self.assertIsNotNone(BaseModel.__doc__)

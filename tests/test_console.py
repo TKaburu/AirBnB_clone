@@ -32,7 +32,7 @@ class TestConsole(unittest.TestCase):
         """Remove temporary file (file.json) created as a result"""
         try:
             os.remove("file.json")
-        except:
+        except Exception:
             pass
 
     """Check for docstring existance"""
