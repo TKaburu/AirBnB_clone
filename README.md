@@ -74,7 +74,7 @@ $
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/airbnb-clone.git
+    git clone https://github.com/TKaburu/AirBnB_clone.git
     ```
 
 2. Navigate to the project directory:
