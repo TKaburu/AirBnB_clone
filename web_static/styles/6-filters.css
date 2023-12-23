@@ -83,13 +83,14 @@ h4 {
 .amenities .popover {
     top: 77%;
     left: -20%;
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
+
 }
 
 .locations:hover .popover, .amenities:hover .popover {
     display: block;
 }
+
 ul {
     list-style: none;
 }
